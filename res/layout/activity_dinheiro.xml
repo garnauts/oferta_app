@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.example.ofertaapp.DinheiroActivity" >
+
+  
+    <TextView
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:keepScreenOn="true"
+        android:text="@string/dummy_content"
+        android:textColor="#33b5e5"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="true" >
+
+        <LinearLayout
+            android:id="@+id/fullscreen_content_controls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_overlay"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_x="14dp"
+            android:layout_y="18dp"
+            android:background="@drawable/um_real"
+            android:text=""
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_x="366dp"
+            android:layout_y="140dp"
+            android:background="@drawable/cincuenta_reais"
+            android:text=""
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_x="192dp"
+            android:layout_y="18dp"
+            android:background="@drawable/dois_reais"
+            android:text=""
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_x="192dp"
+            android:layout_y="140dp"
+            android:background="@drawable/vinte_reais"
+            android:text=""
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_x="14dp"
+            android:layout_y="140dp"
+            android:background="@drawable/dez_reais"
+            android:text=""
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="35sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_x="366dp"
+            android:layout_y="18dp"
+            android:background="@drawable/cinco_reais"
+            android:text=""
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="35sp" />
+
+    </AbsoluteLayout>
+
+</FrameLayout>
